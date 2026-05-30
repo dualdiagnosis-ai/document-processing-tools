@@ -1,0 +1,62 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# ML model weights & caches
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+models/
+model_weights/
+.cache/
+huggingface/
+torch_cache/
+
+# OCR / Surya model caches
+surya_cache/
+easyocr_models/
+
+# MinerU output
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

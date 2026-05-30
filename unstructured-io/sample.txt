@@ -1,0 +1,15 @@
+Introduction to Document Processing
+
+Document processing is a fundamental task in natural language processing and information retrieval. Modern tools make it easier than ever to extract structured information from unstructured text.
+
+Key Features of Unstructured.io
+
+Unstructured.io provides a powerful local pipeline for partitioning documents into semantic elements. It supports a wide range of file formats including plain text, HTML, PDF, DOCX, and more.
+
+The library automatically detects element types such as titles, narrative text, list items, and tables. This makes downstream processing much simpler and more reliable.
+
+Getting Started
+
+To use the library, simply import the appropriate partition function for your file type and call it with the path to your document. The result is a list of Element objects, each with a type and associated text content.
+
+This tool works entirely offline in local mode — no API key required for basic text and document processing tasks.

@@ -1,0 +1,57 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >>
+   /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 437 >>
+stream
+BT
+/F1 12 Tf
+72 720 Td
+14 TL
+(DocStrange Test Document) Tj
+T*
+() Tj
+T*
+(This is a sample document used to test DocStrange.) Tj
+T*
+(It includes multiple lines of plain text.) Tj
+T*
+() Tj
+T*
+(Features being tested:) Tj
+T*
+(  - PDF to Markdown conversion) Tj
+T*
+(  - Cloud API \(free tier, no key required\)) Tj
+T*
+(  - DocumentExtractor Python SDK) Tj
+T*
+() Tj
+T*
+(Result: DocStrange should return clean Markdown from this input.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 5
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000299 00000 n 
+trailer
+<< /Size 5 /Root 1 0 R >>
+startxref
+787
+%%EOF
